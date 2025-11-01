@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SmartTrack – Expense Manager</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>SmartTrack – Expense Manager</h1>
+    <p class="description">
+      Project by <strong>Muhammad Mudasir Korai</strong> (Roll No: <strong>44</strong>) <br>
+      Manage your income and expenses efficiently using this smart financial tracker.
+    </p>
+
+    <div class="balance-box">
+      <h2>Available Balance: <span id="balance">0</span> PKR</h2>
+      <input type="number" id="income-input" placeholder="Enter your total income">
+      <button id="set-income">Set Income</button>
+    </div>
+
+    <div class="expense-form">
+      <h3>Add New Expense</h3>
+      <input type="text" id="expense-name" placeholder="Expense name">
+      <input type="number" id="expense-amount" placeholder="Amount (PKR)">
+      <select id="expense-category">
+        <option value="Food">Food</option>
+        <option value="Transport">Transport</option>
+        <option value="Shopping">Shopping</option>
+        <option value="Bills">Bills</option>
+        <option value="Other">Other</option>
+      </select>
+      <button id="add-expense">Add Expense</button>
+    </div>
+
+    <div class="expense-list">
+      <h3>Expense History</h3>
+      <ul id="expenses"></ul>
+    </div>
+
+    <a href="inndexhome.html" class="back-btn">← Back to Home</a>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
