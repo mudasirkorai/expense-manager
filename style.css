@@ -136,5 +136,35 @@ button:hover {
   margin-top: 15px;
   color: #333;
   text-decoration: none;
-  font-weight: bold;
+  font-weight: bold;/* Home Page Styling */
+.home {
+  text-align: center;
+  padding-top: 60px;
+}
+
+.intro-box, .description-box {
+  background: #ffffffdd;
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.go-btn {
+  display: inline-block;
+  margin-top: 25px;
+  background: #007BFF;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.go-btn:hover {
+  background: #0056b3;
+}
+
 }
